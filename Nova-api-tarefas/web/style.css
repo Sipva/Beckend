@@ -1,0 +1,28 @@
+body{
+    background: lightgreen;
+    font-family: monospace;
+}
+
+#form-tarefa{
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+#list-tarefa{
+    list-style: none;
+}
+
+#list-tarefa li{
+    font-size: 1rem;
+}
+
+main{
+    border: 1px solid green;
+    border-radius: 1rem;
+    padding-left: 3rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
